@@ -10,7 +10,7 @@ A basic api server for class
 
 GitHub Actions: 
 
-Production Deployment: https://basic-express-production.onrender.com/
+Production Deployment: 
 
 ### Setup
 
