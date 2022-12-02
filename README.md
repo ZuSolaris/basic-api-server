@@ -5,12 +5,13 @@ A basic api server for class
 
 ## Author: Zoe Gonzalez
 
-### Problem Domain: This application was created in order to help me understand CRUD and SQL database management.
+### Problem Domain: This application was created in order to help me understand CRUD and SQL database management, I created alternative but similar routes and implemented a router to enforce a strict but helpful managment tool in express as my project grows in complexity.
 
 
-GitHub Actions: 
 
-Production Deployment: 
+GitHub Actions: https://github.com/ZuSolaris/basic-api-server/actions
+
+Production Deployment: https://dashboard.render.com/web/srv-ce4dslun6mpku7l83tm0/deploys/dep-ce4m3kun6mpj46gopbcg
 
 ### Setup
 
