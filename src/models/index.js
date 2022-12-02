@@ -3,6 +3,7 @@
 require('dotenv').config();
 const { Sequelize, DataTypes } = require('sequelize');
 const itemSchema = require('./item.schema');
+const downloadSchema = require('./download.schema');
 
 
 // 'postgres://localhost:5432/sql-test'
@@ -23,10 +24,11 @@ const sequelizeDb = new Sequelize(DATABASE_URL, {
 
 //crustomer model with schema
 const ItemModel = itemSchema(sequelizeDb, DataTypes);
-
+const DownloadModel = downloadSchema(sequelizeDb, DataTypes);
 module.exports = {
   sequelizeDb,
   ItemModel,
+  DownloadModel,
 }
 
 
